@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="#fff"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="2dp"
+        app:cardUseCompatPadding="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:id="@+id/li_item"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/iv_res_image_pro"
+                    android:layout_width="120dp"
+                    android:layout_height="100dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/burger3"
+                    android:tag="image_tag" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="7dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tv_item_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="Pasta"
+                        android:textColor="#000"
+                        android:textSize="18dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tv_item_des"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="7dp"
+                        android:layout_marginRight="10dp"
+                        android:singleLine="true"
+                        android:text="A staple food of traditional Italian cuisine"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:id="@+id/tv_add_cart"
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:layout_gravity="right"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginRight="10dp"
+                        android:background="@drawable/add_cart_border"
+                        android:gravity="center_vertical"
+                        android:text="Add"
+                        android:textColor="@color/colorApp"
+                        android:textSize="16dp"
+                        android:visibility="gone" />
+                    <!--<ImageView-->
+                    <!--android:id="@+id/iv_addToCart"-->
+                    <!--android:layout_width="30dp"-->
+                    <!--android:layout_height="30dp"-->
+                    <!--android:layout_gravity="right"-->
+                    <!--android:layout_marginTop="5dp"-->
+                    <!--android:layout_marginRight="10dp"-->
+                    <!--android:background="@drawable/textview_redius"-->
+                    <!--android:paddingLeft="3dp"-->
+                    <!--android:paddingTop="7dp"-->
+                    <!--android:paddingRight="3dp"-->
+                    <!--android:paddingBottom="7dp"-->
+                    <!--android:src="@drawable/cart"-->
+                    <!--android:visibility="visible" />-->
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/textview_redius"
+                android:padding="4dp"
+                android:text="₹ 200"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#fff"
+                android:textSize="14dp"
+                android:textStyle="bold" />
+
+
+        </RelativeLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

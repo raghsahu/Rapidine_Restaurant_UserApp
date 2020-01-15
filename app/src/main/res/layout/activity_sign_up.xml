@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:background="#fff"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/et_user_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border"
+                android:drawableLeft="@drawable/ic_perm"
+                android:drawablePadding="10dp"
+                android:hint="Name"
+                android:inputType="text"
+                android:textColor="#000"
+                android:padding="20dp"
+                android:textColorHint="#000" />
+
+            <EditText
+                android:id="@+id/et_user_phone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border"
+                android:drawableLeft="@drawable/ic_phone"
+                android:drawablePadding="10dp"
+                android:hint="Phone Number"
+                android:textColor="#000"
+                android:inputType="number"
+                android:padding="20dp"
+                android:textColorHint="#000" />
+
+            <EditText
+                android:id="@+id/et_user_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border"
+                android:drawableLeft="@drawable/ic_lock"
+                android:drawablePadding="10dp"
+                android:hint="Password"
+                android:textColor="#000"
+                android:inputType="textPassword"
+                android:padding="20dp"
+                android:textColorHint="#000" />
+            <EditText
+                android:id="@+id/et_user_c_pass"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border"
+                android:drawableLeft="@drawable/ic_lock"
+                android:drawablePadding="10dp"
+                android:hint="Confirm Password"
+                android:textColor="#000"
+                android:inputType="textPassword"
+                android:padding="20dp"
+                android:textColorHint="#000" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+               android:layout_marginTop="20dp"
+                >
+
+                <CheckBox
+                    android:id="@+id/ch_terms"
+                    android:shadowColor="#000"
+                    android:buttonTint="#000"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:id="@+id/tv_terms"
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="#000"
+                    android:layout_height="wrap_content"
+                    android:text="I agree Terms and Conditions"/>
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btn_signup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@color/colorApp"
+                android:textColor="#fff"
+                android:text="SignUp" />
+
+
+            <LinearLayout
+                android:id="@+id/ll_signup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="Don't Have An Account ?"
+                    android:textColor="#000"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tv_login"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="Login"
+                    android:textColor="#000"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

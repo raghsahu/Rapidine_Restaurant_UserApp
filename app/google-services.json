@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "467952468293",
+    "firebase_url": "https://rapidine.firebaseio.com",
+    "project_id": "rapidine",
+    "storage_bucket": "rapidine.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:467952468293:android:01ad1125107502f6",
+        "android_client_info": {
+          "package_name": "com.rapidine.rapidine"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "467952468293-3vmkddhdlujnh9v1dubsas9c103t1r05.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.rapidine.rapidine",
+            "certificate_hash": "f19f29e930f89e8fcc0029eedbd78dbf5f016db2"
+          }
+        },
+        {
+          "client_id": "467952468293-0o0egk0lr5ei9080pj7n7o58lr4o8pqc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-vjXiBUXN85wRzFcl7O96lF55eRADni8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "467952468293-0o0egk0lr5ei9080pj7n7o58lr4o8pqc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
